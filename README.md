@@ -1,11 +1,11 @@
 # Health-Tracker
-
 - Mental & Physical Health tracker
 
+# Description
 - This is an application for users to track the mental & physical health of themselves and/or someone in their care. Example: Elderly, children, someone with special needs, etc... A user has the opportunity to track their day to day mental and physical health, as well as the variables and occurrences that may have attributed to their health.
 
-- User stories:
- 
+## User stories
+
  - As an unregistered user, I would like to sign up with a email & password
  - As a registered user, I would like to sign in with an email and password
  - As a signed in user, I would like to change my password
