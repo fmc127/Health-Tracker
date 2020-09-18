@@ -52,19 +52,19 @@
 
 User -|--< Entries
 
-| entry         |             |
-| ------------- | ----------- |
-| date*1        | date        |
-| member*2      | string      |
-| activities*3  | string      |
-| encounters*4  | string      |
-| food*5        | string      |
-| water*6       | string      |
-| prsnl time*7  | string      |
-| looming*8     | string      |
-| changes*9     | string      |
-| journal*10    | string      |
-| user_id       | foreign key |
+| entry          |             |
+| -------------  | ----------- |
+| date *1        | date        |
+| member *2      | string      |
+| activities *3  | string      |
+| encounters *4  | string      |
+| food *5        | string      |
+| water *6       | string      |
+| prsnl time *7  | string      |
+| looming *8     | string      |
+| changes *9     | string      |
+| journal *10    | string      |
+| user_id        | foreign key |
 
 *1 The date the post was made. I want this to be be searchable from a drop-down calendar type thing
 
@@ -83,3 +83,9 @@ User -|--< Entries
 *9 Changes the user wants to make in order to improve themself or their routine
 
 *10 Leave a spot for journaling with a high character max
+
+ I WANT
+
+- an interactive calendar where the user can select previous days to view entries on those days
+
+- modals?
