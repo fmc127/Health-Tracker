@@ -1,14 +1,17 @@
+/* @import '~bootstrap/scss/bootstrap';
+ */
+
 body {
   padding-top: 5rem;
 }
 
-.start-template {
+.start {
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
- .btn-outline-primary {
-   align-items: center;
+.form-control {
+   margin-left: 10px;
 }
 
 .box {
@@ -21,7 +24,7 @@ box-sizing: border-box;
 /* margin: 10px; */
 padding: 10px;
 background-color: #4d6db7;
-border-radius: 2px;
+border-radius: 8px;
 margin-bottom: 5px;
 margin-top: 5px;
 padding-left: 20px;
@@ -33,14 +36,14 @@ font-weight: 400;
 line-height: 1.5;
 text-align: left;
 box-sizing: border-box;
-display: block;
+display: inline-block;
 position: relative;
 width: 100%;
 padding: 25px 15px 25px 15px;
 flex: 0 0 33.33333%;
 max-width: 33.33333%;
 background-color: #0bcda6;
-border-radius: 4px;
+border-radius: 8px;
 color: #000000;
 margin-bottom: 25px;
 margin-top: 15px;
