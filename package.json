@@ -1,0 +1,23 @@
+{
+  "name": "health-tracker",
+  "version": "1.0.0",
+  "description": "health tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmc127/Health-Tracker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmc127/Health-Tracker/issues"
+  },
+  "homepage": "https://github.com/fmc127/Health-Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
